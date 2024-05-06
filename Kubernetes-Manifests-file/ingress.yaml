@@ -10,7 +10,6 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: api.merzed.com
       http:
         paths:
           - path: /api
